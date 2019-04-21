@@ -38,10 +38,10 @@
         LFLiveVideoConfiguration *videoConfiguration = [LFLiveVideoConfiguration new];
         videoConfiguration.videoSize = CGSizeMake(1280, 720);
         videoConfiguration.videoBitRate = 800*1024;
-        videoConfiguration.videoMaxBitRate = 1000*1024;
-        videoConfiguration.videoMinBitRate = 500*1024;
+        videoConfiguration.videoMaxBitRate = 5000*1024;
+        videoConfiguration.videoMinBitRate = 1000*1024;
         videoConfiguration.videoFrameRate = 24;
-        videoConfiguration.videoMaxKeyframeInterval = 48;
+        videoConfiguration.videoMaxKeyframeInterval = 24;
         videoConfiguration.outputImageOrientation = UIInterfaceOrientationLandscapeRight;
         videoConfiguration.autorotate = YES;
         videoConfiguration.sessionPreset = LFCaptureSessionPreset720x1280;
